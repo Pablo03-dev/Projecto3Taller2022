@@ -25,9 +25,9 @@ public class GameoverScreen : MonoBehaviour
         JuegoPausado = true;
     }
 
-    public void RestartButton()
+    public void RestartButton(int sceneIndex)
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(sceneIndex);
         Time.timeScale = 1f;
         JuegoPausado = false;
     }
