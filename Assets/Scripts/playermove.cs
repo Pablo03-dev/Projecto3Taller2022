@@ -12,11 +12,8 @@ public class playermove : MonoBehaviour
 {
 
     public float speed = 10;
-    //public float speedModValue;
-    //public Boundary boundary;
-    
-    //private Rigidbody2D Myrb;
-
+    public float speed_rotation = 20;
+    public bool Andando = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,12 +25,36 @@ public class playermove : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.UpArrow))
         {
+            Andando = true;
             transform.position += transform.up * Time.deltaTime * speed;
+
+            if (Andando == true && Input.GetKey(KeyCode.LeftArrow))
+            {
+                transform.Rotate(0f, 0f, speed_rotation * Time.deltaTime);
+            }
+            if (Andando == true && Input.GetKey(KeyCode.RightArrow))
+            {
+                transform.Rotate(0f, 0f, -speed_rotation * Time.deltaTime);
+            }
+
         }
+       
+
+
 
         if (Input.GetKey(KeyCode.DownArrow))
         {
+            Andando = true;
             transform.position -= transform.up * Time.deltaTime * speed;
+
+            if (Andando == true && Input.GetKey(KeyCode.LeftArrow))
+            {
+                transform.Rotate(0f, 0f, -speed_rotation * Time.deltaTime);
+            }
+            if (Andando == true && Input.GetKey(KeyCode.RightArrow))
+            {
+                transform.Rotate(0f, 0f, speed_rotation * Time.deltaTime);
+            }
         }
 
         //if (Input.GetKey(KeyCode.LeftArrow))
