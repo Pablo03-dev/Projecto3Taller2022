@@ -512,7 +512,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2095,7 +2095,7 @@ SpriteShapeRenderer:
   m_MaskInteraction: 0
   m_ShapeTexture: {fileID: 2800000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
   m_Sprites:
-  - {fileID: 21300000, guid: 068e721b674851c4190ea878697ca950, type: 3}
+  - {fileID: 21300000, guid: c937bf8bb529eed44bdc301029bd8352, type: 3}
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
@@ -2105,8 +2105,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   m_LocalAABB:
-    m_Center: {x: 2.2983189, y: 3.1665428, z: 0}
-    m_Extent: {x: 7.941354, y: 5.0621905, z: 0}
+    m_Center: {x: 2.797566, y: 2.8742986, z: 0}
+    m_Extent: {x: 7.3208084, y: 4.2353077, z: 0}
 --- !u!4 &1133238601
 Transform:
   m_ObjectHideFlags: 0
