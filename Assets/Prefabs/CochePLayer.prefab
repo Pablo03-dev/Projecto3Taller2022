@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2914692058030256052}
   - component: {fileID: 2914692058030256053}
   - component: {fileID: 2914692058030256058}
+  - component: {fileID: 1592991072982869406}
   m_Layer: 0
   m_Name: CochePLayer
   m_TagString: Player
@@ -179,3 +180,17 @@ MonoBehaviour:
   radio: 1.13
   fuerzaExplosion: 3.35
   efectoExplosion: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
+--- !u!114 &1592991072982869406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2914692058030256059}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38260ca0cfbf2f2438e13d2d992a8d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 1
+  rotacion: 30
