@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     //public float timer = 10;
     //private bool juegoPausado = false;
     public GameoverScreen GameOverScreen;
+    public WinScreen WinEndScreen;
     private void Awake()
     {
         manager = this;
@@ -33,7 +34,8 @@ public class GameManager : MonoBehaviour
 
     public void WinGame()
     {
-
+        print("WinGame");
+        WinEndScreen.Setup(score);
     }
 
     public void ResetearJuego()
