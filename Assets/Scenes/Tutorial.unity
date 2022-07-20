@@ -8940,12 +8940,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
   - component: {fileID: 1987382453}
   - component: {fileID: 1987382452}
   - component: {fileID: 1987382451}
   - component: {fileID: 1987382450}
   m_Layer: 5
   m_Name: CanvasPuntos
+=======
+  - component: {fileID: 1514014325}
+  - component: {fileID: 1514014324}
+  - component: {fileID: 1514014323}
+  - component: {fileID: 1514014327}
+  - component: {fileID: 1514014326}
+  m_Layer: 0
+  m_Name: Open Sprite Shape
+>>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9028,12 +9038,118 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &1996096813
+=======
+--- !u!114 &1514014326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514014322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce83d9ade06c1cb49af4d8f66c715942, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!68 &1514014327
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514014322}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0.6
+  m_Points:
+  - {x: -6.7840967, y: -6.408548}
+  - {x: -6.5702195, y: -4.384876}
+  - {x: -6.466794, y: -3.219603}
+  - {x: -6.3961086, y: -1.9394598}
+  - {x: -6.3847203, y: -1.2984934}
+  - {x: -6.396508, y: -0.65757495}
+  - {x: -6.418362, y: -0.23059523}
+  - {x: -6.476444, y: 0.3004206}
+  - {x: -6.559072, y: 0.7437283}
+  - {x: -7.116704, y: 3.1128697}
+  - {x: -7.571888, y: 5.1827054}
+  - {x: -7.7972345, y: 6.3095837}
+  - {x: -8.013474, y: 7.509084}
+  - {x: -8.180974, y: 8.559264}
+  - {x: -8.335371, y: 9.729297}
+  - {x: -8.443506, y: 10.780029}
+  - {x: -8.517345, y: 11.870762}
+  - {x: -8.546514, y: 12.9437}
+  - {x: -8.52622, y: 13.995318}
+  - {x: -8.451679, y: 15.022099}
+  - {x: -8.3181, y: 16.020517}
+  - {x: -8.106852, y: 17.059664}
+  - {x: -7.8414207, y: 18.53978}
+  - {x: -7.666993, y: 19.28279}
+  - {x: -7.419489, y: 20.092068}
+  - {x: -7.079468, y: 20.93975}
+  - {x: -6.627484, y: 21.797966}
+  - {x: -6.0440993, y: 22.638842}
+  - {x: -5.3098683, y: 23.43451}
+  - {x: -4.4053445, y: 24.157112}
+  - {x: -3.311068, y: 24.778778}
+  - {x: -2.0075817, y: 25.271645}
+  - {x: -0.45751813, y: 25.609352}
+  - {x: 1.3048608, y: 25.759455}
+  - {x: 3.3812342, y: 25.695993}
+  - {x: 4.500746, y: 25.579237}
+  - {x: 5.694742, y: 25.407896}
+  - {x: 6.9210095, y: 25.194021}
+  - {x: 8.165845, y: 24.947012}
+  - {x: 9.694375, y: 24.61298}
+  - {x: 11.878718, y: 24.100351}
+  - {x: 12.501481, y: 23.948647}
+  - {x: 13.153317, y: 23.759602}
+  - {x: 15.245467, y: 23.059938}
+  - {x: 16.466686, y: 22.669462}
+  - {x: 17.700935, y: 22.308348}
+  - {x: 19.121624, y: 21.953938}
+  - {x: 20.587431, y: 21.67223}
+  - {x: 22.064173, y: 21.49792}
+  - {x: 23.51765, y: 21.465677}
+  - {x: 24.913685, y: 21.61019}
+  - {x: 26.218073, y: 21.966156}
+  - {x: 27.396606, y: 22.568277}
+  - {x: 28.415035, y: 23.451225}
+  - {x: 29.239134, y: 24.649658}
+  - {x: 30.688662, y: 28.43637}
+  - {x: 31.372482, y: 30.483099}
+  - {x: 32.015385, y: 32.95617}
+  - {x: 32.458275, y: 35.71153}
+  - {x: 32.542065, y: 38.605198}
+  - {x: 32.10763, y: 41.49311}
+  - {x: 30.995853, y: 44.23126}
+  - {x: 29.047626, y: 46.675507}
+  - {x: 26.103914, y: 48.68176}
+  - {x: 22.0057, y: 50.10597}
+  - {x: 16.593939, y: 50.80414}
+  - {x: 9.709553, y: 50.632256}
+  - {x: 1.1934366, y: 49.446312}
+  - {x: -9.1140995, y: 47.101982}
+  - {x: -9.113492, y: 47.102287}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!1 &1825636842
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
