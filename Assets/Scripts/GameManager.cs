@@ -50,7 +50,9 @@ public class GameManager : MonoBehaviour
 
         if(vidas < 1)
         {
+          
             GameOver();
+            gameObject.GetComponent<ExplosionCoche>().Explosion();
             //Over.Show();
         }
     }

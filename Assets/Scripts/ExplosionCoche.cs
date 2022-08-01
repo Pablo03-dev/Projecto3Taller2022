@@ -17,13 +17,13 @@ public class ExplosionCoche : MonoBehaviour
     //    }
     //}
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Pared")
-        {
-            Explosion();
-        }
-    }
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if (collision.gameObject.tag == "Pared")
+    //    {
+    //        Explosion();
+    //    }
+    //}
 
     public void Explosion()
     {
