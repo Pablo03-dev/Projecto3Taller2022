@@ -1454,7 +1454,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &588216571
 GameObject:
@@ -3865,8 +3865,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CochePLayer (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1592991072982869406, guid: b39993f5d55c3d04796adade4261844d, type: 3}
+    - target: {fileID: 2914692058030256059, guid: b39993f5d55c3d04796adade4261844d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b39993f5d55c3d04796adade4261844d, type: 3}
 --- !u!1 &1133238598
 GameObject:
@@ -7870,7 +7873,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 705415708833107313, guid: ca9fe4fc2899fee43899769b753f3963, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 705415708833107313, guid: ca9fe4fc2899fee43899769b753f3963, type: 3}
       propertyPath: m_LocalPosition.x

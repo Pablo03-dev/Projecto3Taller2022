@@ -12,10 +12,9 @@ GameObject:
   - component: {fileID: 2914692058030256049}
   - component: {fileID: 2914692058030256054}
   - component: {fileID: 2914692058030256055}
-  - component: {fileID: 2914692058030256052}
   - component: {fileID: 2914692058030256053}
-  - component: {fileID: 2914692058030256058}
   - component: {fileID: 1592991072982869406}
+  - component: {fileID: 1940438768834233353}
   m_Layer: 0
   m_Name: CochePLayer
   m_TagString: Player
@@ -137,19 +136,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.3163931, y: 4.3618774}
   m_EdgeRadius: 0
---- !u!114 &2914692058030256052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2914692058030256059}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46bfab6cf1a06184397dbf0c2da3c67e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 100
 --- !u!114 &2914692058030256053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,21 +151,6 @@ MonoBehaviour:
   speed: 5
   speed_rotation: 90
   Andando: 0
---- !u!114 &2914692058030256058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2914692058030256059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f85cb4209341b948ab7f49b53480e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radio: 1.13
-  fuerzaExplosion: 3.35
-  efectoExplosion: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
 --- !u!114 &1592991072982869406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,5 +163,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38260ca0cfbf2f2438e13d2d992a8d55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 1
+  velocidad: 2
   rotacion: 30
+--- !u!114 &1940438768834233353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2914692058030256059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f85cb4209341b948ab7f49b53480e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radio: 0.11
+  fuerzaExplosion: 3
+  efectoExplosion: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
