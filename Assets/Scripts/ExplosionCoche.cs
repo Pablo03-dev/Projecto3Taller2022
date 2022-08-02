@@ -25,6 +25,16 @@ public class ExplosionCoche : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Carretera")
+        {
+            Explosion();
+        }
+    }
+
+
+
     public void Explosion()
     {
         Instantiate(efectoExplosion, transform.position, Quaternion.identity);
@@ -45,7 +55,7 @@ public class ExplosionCoche : MonoBehaviour
             }
         }
 
-        Destroy(gameObject);
+       // Destroy(gameObject);
     }
 
     private void OnDrawGizmos()

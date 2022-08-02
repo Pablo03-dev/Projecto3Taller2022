@@ -10,8 +10,8 @@ public class GameManager : MonoBehaviour
     public Slider barrahp;
     private int score;
     public Text scoreText;
-    //public Transform posReseteo;
-    //public Rigidbody2D rb;
+    public Transform posReseteo;
+    public Rigidbody2D rb;
 
     //public float timer = 10;
     //private bool juegoPausado = false;
@@ -48,9 +48,9 @@ public class GameManager : MonoBehaviour
         vidas--;
         barrahp.value = vidas;
 
-        if(vidas < 1)
+        if (vidas < 1)
         {
-          
+
             GameOver();
             gameObject.GetComponent<ExplosionCoche>().Explosion();
             //Over.Show();
@@ -69,11 +69,11 @@ public class GameManager : MonoBehaviour
         UpdatedScore();
     }
 
-    //public void ResetearPosicion(Transform _transform)
-    //{
-    //    _transform.position = posReseteo.position;
-    //    rb.velocity = Vector2.zero;
-    //}
+    public void ResetearPosicion(Transform _transform)
+    {
+        _transform.position = posReseteo.position;
+        rb.velocity = Vector2.zero;
+    }
 
     //private void Update()
     //{

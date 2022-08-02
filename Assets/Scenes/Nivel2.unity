@@ -947,6 +947,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barrahp: {fileID: 78465060}
   scoreText: {fileID: 1313615847}
+  posReseteo: {fileID: 0}
+  rb: {fileID: 0}
   GameOverScreen: {fileID: 1885890617}
   WinEndScreen: {fileID: 801785207}
   vidas: 3
@@ -4825,7 +4827,7 @@ GameObject:
   - component: {fileID: 1504823193}
   m_Layer: 0
   m_Name: carretera
-  m_TagString: Untagged
+  m_TagString: Carretera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6866,7 +6868,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2914692058030256048, guid: b39993f5d55c3d04796adade4261844d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.03
+      value: 0.036815625
       objectReference: {fileID: 0}
     - target: {fileID: 2914692058030256048, guid: b39993f5d55c3d04796adade4261844d, type: 3}
       propertyPath: m_LocalScale.y
@@ -6911,6 +6913,10 @@ PrefabInstance:
     - target: {fileID: 2914692058030256048, guid: b39993f5d55c3d04796adade4261844d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2914692058030256053, guid: b39993f5d55c3d04796adade4261844d, type: 3}
+      propertyPath: speed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2914692058030256053, guid: b39993f5d55c3d04796adade4261844d, type: 3}
       propertyPath: speed_rotation

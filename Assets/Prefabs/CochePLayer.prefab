@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2914692058030256053}
   - component: {fileID: 1592991072982869406}
   - component: {fileID: 1940438768834233353}
+  - component: {fileID: 271648930048141314}
   m_Layer: 0
   m_Name: CochePLayer
   m_TagString: Player
@@ -180,3 +181,34 @@ MonoBehaviour:
   radio: 0.11
   fuerzaExplosion: 3
   efectoExplosion: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
+--- !u!114 &271648930048141314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2914692058030256059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51d393ce9532b5d4490b135038578c10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+  - tag: Pared
+    eventos:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  onStay: []
+  onExit: []

@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pared
+  - ParedInterna
+  - Carretera
   layers:
   - Default
   - TransparentFX
