@@ -4209,6 +4209,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barrahp: {fileID: 927300408}
   scoreText: {fileID: 636160937}
+  posReseteo: {fileID: 0}
+  rb: {fileID: 0}
   GameOverScreen: {fileID: 987854326}
   WinEndScreen: {fileID: 970774510}
   vidas: 3
