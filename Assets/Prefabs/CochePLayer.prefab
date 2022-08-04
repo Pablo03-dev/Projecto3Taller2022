@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  speed_rotation: 90
+  speed_rotation: 100
   Andando: 0
 --- !u!114 &1592991072982869406
 MonoBehaviour:
