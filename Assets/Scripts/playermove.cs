@@ -25,18 +25,24 @@ public class playermove : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.UpArrow))
         {
+            //Audiomanager.PlaySound("Coche");
             Andando = true;
             transform.position += transform.up * Time.deltaTime * speed;
+            //Audiomanager.PlaySound("Andando");
 
-            if (Andando == true && Input.GetKey(KeyCode.LeftArrow))
+            if (Andando == true && Input.GetKey(KeyCode.A))
             {
                 transform.Rotate(0f, 0f, speed_rotation * Time.deltaTime);
             }
-            if (Andando == true && Input.GetKey(KeyCode.RightArrow))
+            if (Andando == true && Input.GetKey(KeyCode.D))
             {
                 transform.Rotate(0f, 0f, -speed_rotation * Time.deltaTime);
             }
 
+        }
+        else
+        {
+            
         }
        
 
@@ -47,11 +53,11 @@ public class playermove : MonoBehaviour
             Andando = true;
             transform.position -= transform.up * Time.deltaTime * speed;
 
-            if (Andando == true && Input.GetKey(KeyCode.LeftArrow))
+            if (Andando == true && Input.GetKey(KeyCode.A))
             {
                 transform.Rotate(0f, 0f, -speed_rotation * Time.deltaTime);
             }
-            if (Andando == true && Input.GetKey(KeyCode.RightArrow))
+            if (Andando == true && Input.GetKey(KeyCode.D))
             {
                 transform.Rotate(0f, 0f, speed_rotation * Time.deltaTime);
             }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Audiomanager : MonoBehaviour
 {
-    //public static AudioClip FlippersSound;
+    public static AudioClip AndandoSound;
     //public static AudioClip PartidaSound;
     //public static AudioClip ImpactObstacSound;
     //public static AudioClip HuidaSound;
@@ -15,11 +15,11 @@ public class Audiomanager : MonoBehaviour
     //public static AudioClip PandaCorreSound;
     //public static AudioClip PowerupSound;
 
-    //static AudioSource audioScr;
+    static AudioSource audioScr;
     //// Start is called before the first frame update
-    //void Start()
-    //{
-    //    FlippersSound = Resources.Load<AudioClip>("Flippers");
+    void Start()
+    {
+        AndandoSound = Resources.Load<AudioClip>("Coche");
     //    PartidaSound = Resources.Load<AudioClip>("BolaInicia");
     //    ImpactObstacSound = Resources.Load<AudioClip>("ImpactoObsta");
     //    HuidaSound = Resources.Load<AudioClip>("HuidaPanda");
@@ -30,8 +30,8 @@ public class Audiomanager : MonoBehaviour
     //    PandaCorreSound = Resources.Load<AudioClip>("Panda_pasto");
     //    PowerupSound = Resources.Load<AudioClip>("ImpacObstac");
 
-    //    audioScr = GetComponent<AudioSource>();
-    //}
+        audioScr = GetComponent<AudioSource>();
+    }
 
     //// Update is called once per frame
     //void Update()
@@ -39,12 +39,12 @@ public class Audiomanager : MonoBehaviour
         
     //}
 
-    //public static void PlaySound (string clip)
-    //{
-    //    switch (clip)
-    //    {
-    //        case "Flippers": audioScr.PlayOneShot(FlippersSound);
-    //            break;
+    public static void PlaySound (string clip)
+    {
+        switch (clip)
+        {
+            case "Coche": audioScr.PlayOneShot(AndandoSound);
+                break;
 
     //        case "BolaInicia":
     //            audioScr.PlayOneShot(PartidaSound);
@@ -81,6 +81,6 @@ public class Audiomanager : MonoBehaviour
     //        case "ImpacObstac":
     //            audioScr.PlayOneShot(PowerupSound);
     //            break;
-    //    }
-    //}
+        }
+    }
 }
