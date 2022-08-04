@@ -57,6 +57,12 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void RestaurarVidas()
+    {
+        vidas++;
+        barrahp.value = vidas;
+    }
+
     void UpdatedScore()
     {
         scoreText.text = "Score: " + score;
