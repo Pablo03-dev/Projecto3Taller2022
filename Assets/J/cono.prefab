@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5166478873260610399}
   - component: {fileID: 8968641111212934922}
   - component: {fileID: 1013730322611839484}
+  - component: {fileID: 3220384692565701897}
   m_Layer: 0
   m_Name: cono
-  m_TagString: Untagged
+  m_TagString: Cono
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,3 +112,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32260585, y: 0.3517683}
   m_EdgeRadius: 0
+--- !u!114 &3220384692565701897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297398858917064726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17b85f55f3f7cf46b65f8c5d20531c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
