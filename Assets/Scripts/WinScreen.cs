@@ -34,7 +34,7 @@ public class WinScreen : MonoBehaviour
 
     public void ExittButton()
     {
-        SceneManager.LoadScene("MenuPrincipal");
+        SceneManager.LoadScene("MenuNiveles");
         Time.timeScale = 1f;
     }
 }

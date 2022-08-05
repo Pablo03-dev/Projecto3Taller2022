@@ -1462,7 +1462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42813e046d12a9a43a947e6e969c30e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TiempoInicial: 90
+  TiempoInicial: 60
   ContadorText: {fileID: 212608481}
 --- !u!4 &250282625
 Transform:
