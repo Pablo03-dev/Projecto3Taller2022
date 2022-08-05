@@ -8,7 +8,7 @@ public class Audiomanager : MonoBehaviour
     //public static AudioClip PartidaSound;
     //public static AudioClip ImpactObstacSound;
     //public static AudioClip HuidaSound;
-    //public static AudioClip ExplosionSound;
+    public static AudioClip ExplosionSound;
     //public static AudioClip MuroSound;
     //public static AudioClip PandaSound;
     //public static AudioClip BotonesSound;
@@ -23,7 +23,7 @@ public class Audiomanager : MonoBehaviour
     //    PartidaSound = Resources.Load<AudioClip>("BolaInicia");
     //    ImpactObstacSound = Resources.Load<AudioClip>("ImpactoObsta");
     //    HuidaSound = Resources.Load<AudioClip>("HuidaPanda");
-    //    ExplosionSound = Resources.Load<AudioClip>("Explosion");
+        ExplosionSound = Resources.Load<AudioClip>("Explosion");
     //    MuroSound = Resources.Load<AudioClip>("ImpacMuro");
     //    PandaSound = Resources.Load<AudioClip>("Panda");
     //    BotonesSound = Resources.Load<AudioClip>("Botones");
@@ -58,9 +58,9 @@ public class Audiomanager : MonoBehaviour
     //            audioScr.PlayOneShot(HuidaSound);
     //            break;
 
-    //        case "Explosion":
-    //            audioScr.PlayOneShot(ExplosionSound);
-    //            break;
+            case "Explosion":
+                audioScr.PlayOneShot(ExplosionSound);
+                break;
 
     //        case "ImpacMuro":
     //            audioScr.PlayOneShot(MuroSound);

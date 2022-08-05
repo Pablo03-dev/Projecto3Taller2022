@@ -22,6 +22,7 @@ public class ExplosionCoche : MonoBehaviour
         if (collision.gameObject.tag == "Pared")
         {
             Explosion();
+            Audiomanager.PlaySound("Explosion");
         }
     }
 
@@ -30,6 +31,7 @@ public class ExplosionCoche : MonoBehaviour
         if (collision.gameObject.tag == "Carretera")
         {
             Explosion();
+            Audiomanager.PlaySound("Explosion");
         }
     }
 
